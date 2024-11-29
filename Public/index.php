@@ -19,7 +19,8 @@ try {
 		echo "No results";
 	}
 	
-} catch (Exception $e) {
+} 
+catch (Exception $e) {
 	die($e->getMessage());
 }
 
