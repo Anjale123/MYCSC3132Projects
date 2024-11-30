@@ -1,6 +1,6 @@
 <?php
 //get the db connection file
-require_once 'ConnectDB.php';
+require_once 'dbconf.php';
 
 function PrintTable($tableName,$connect)
 {
