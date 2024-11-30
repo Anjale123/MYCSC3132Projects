@@ -49,3 +49,4 @@ PrintTable("student",$connect);
 echo "<br>";
 echo "<br>";
 PrintTable("teacher",$connect);
+?>
