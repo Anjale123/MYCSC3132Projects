@@ -49,10 +49,8 @@ function PrintTableCols($tableName,$connect,$colnames)
 	}
 }
 PrintTableCols("student",$connect,["name","age","gender"]);
-//select author,title,isbn from books
-//select
-//select author,
-//select author,title
-//select author,title,isbn,
-//PrintTableCols("reviews",$connect,["reviewer_name","rating"]);
+echo "<br>";
+echo "<br>";
+
+PrintTableCols("teacher",$connect,["name","gender","subject"]);
 ?>
