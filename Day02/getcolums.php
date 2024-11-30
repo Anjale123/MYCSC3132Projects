@@ -46,4 +46,3 @@ function PrintTableCols($tableName,$connect,$colnames)
 	}
 }
 PrintTableCols("student",$connect,["name","age","gender"]);
-?>
