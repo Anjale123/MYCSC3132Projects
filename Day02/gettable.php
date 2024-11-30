@@ -46,5 +46,6 @@ try {
 
 
 PrintTable("student",$connect);
-
-//PrintTable("teacher",$connect);
+echo "<br>";
+echo "<br>";
+PrintTable("teacher",$connect);
