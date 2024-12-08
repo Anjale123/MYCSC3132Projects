@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,16 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>My Works 29.11.2024</h1><br><br>
+    <h1>2020ASP67</h1><br><br>
 
-    <p>You can insert a data enty here</p>
-    <p>It will carry to form</p>
-    <a href="insert.php">Insert</a><br>
-    <p>Here you can fill the form</p>
-    <a href="form.php">form</a><br>
-    <p>Here defined data enry added</p>
-    <a href="table.php">Table</a><br>
+    <a href="gettable.php">Gettable</a><br>
+    
+
 
     
 </body>
-</html> 
+</html>
