@@ -1,23 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>printtable</title>
-</head>
-<body>
-   
 <?php
+require_once 'dbconf.php';
+require_once 'myfun.php';
 
-require_once 'dbconf.php'; //db cottector file
-require_once 'myfunc.php'; // all functions
-
-// global variable
- $user_id = $_GET['user_id'];
-
- userdetails($user_id,$connect);
-
-
+// Check if 'student_id' is passed in the URL
+if (isset($_GET['student_id'])) {
+    $student_id = $_GET['student_id'];
+    Studentdetails($student_id, $connect);
+} else {
+    echo "Student ID is missing!";
+}
 ?>
-
-
-</body>
-</html>
