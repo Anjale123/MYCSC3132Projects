@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>USER LIST</title>
+	<title>STUDENT LIST</title>
 </head>
 <body>
 
 	<?php
+//get the db connection file
 
-//db connection file
 require_once 'dbconf.php'; //(conf/dbconf.php) (folder/file)
-require_once 'myfunc.php';
+require_once 'myfun.php';
 
-//PrintTable
-user($connect);
+//PrintTable ("student",$connect);
+student($connect);
 
 ?>
 
