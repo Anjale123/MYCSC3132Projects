@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,10 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>my Work 06.12.2024</h1><br><br>
+    <h1>2020ASP67</h1><br><br>
 
     <a href="gettable.php">Gettable</a><br>
     
+    <a href="myfun.php">MyFunction</a><br>
 
 
     
